@@ -1,0 +1,151 @@
+.eau{
+    background-image: url("../icones/water.png");
+    height: 70px;
+    width: 70px;
+    border: solid 0.5px;
+}
+.rock{
+    background-image: url("../icones/rock.png");
+    height: 70px;
+    width: 70px;
+    border: solid 0.5px;
+}
+.frog{
+    background-color: white;
+    background-image: url("../icones/frog.png");
+    height: 70px;
+    width: 70px;
+    border: solid 0.5px;
+}
+.mouche{
+    background-color: white;
+    background-image: url("../icones/mouche.png");
+    height: 70px;
+    width: 70px;
+    border: solid 0.5px;
+}
+/* .effetSang{
+    width:98% ;
+    height: 100%;
+    background-color: red;
+    animation: Sang 1s infinite;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+
+@keyframes Sang {
+    0% {
+      opacity: 1;
+
+  }
+
+  100% {
+    opacity: 0;
+
+  }
+} */
+.retry{
+    margin-top: 1250px;
+    color:black;
+    font-size:50px;
+    background-color: rgb(225, 0, 255);
+    padding: 10px;
+    width: 30vw;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 50px;
+    border: solid red;
+    
+ 
+    
+}
+.mapping{
+    background-color: 	#DEB887;
+    height: auto;
+    border: solid 0.5px;
+    display: flex;
+    flex-direction: column;
+}
+.effetSang{
+    width:98% ;
+    height: 100%;
+    background-image: url("../icones/tapette.png");
+
+    animation: Sang 2s 1;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    z-index: -5;
+}
+
+@keyframes Sang {
+    0% {
+      opacity: 1;
+
+  }
+
+  100% {
+    opacity: 0;
+
+  }
+}
+
+@media  screen and (max-width: 640px){
+    .eau{
+        background-image: url("../icones/mini_water.png");
+        height: 4vh;
+        width: 10vw;
+        border: solid 0.5px;
+    }
+    .rock{
+        background-image: url("../icones/mini_rock.png");
+        height: 4vh;
+        width: 10vw;
+        border: solid 0.5px;
+    }
+    .frog{
+        background-color: white;
+        background-image: url("../icones/mini_frog.png");
+        height: 4vh;
+        width: 10vw;
+        border: solid 0.5px;
+    }
+    .mouche{
+        background-color: white;
+        background-image: url("../icones/mini_mouche.png");
+        height: 4vh;
+        width: 10vw;
+        border: solid 0.5px;
+    }
+
+    .container_fleche {
+        width: 63%;
+        margin: 2px 34%;
+        display: flex;
+        flex-direction: column;
+    }
+    .fleche_l {
+        height: 7vh;
+        margin-left: -39px;
+        cursor: pointer;
+    }
+    .fleche_h {
+        height: 7vh;
+        margin-left: 26px;
+        cursor: pointer;
+    }
+    .fleche_r {
+        height: 7vh;
+        margin-left: 42px;
+        cursor: pointer;
+    }
+    .retry {
+        font-size: 34px;
+        padding: 10px;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    
+}
